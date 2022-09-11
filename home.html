@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+       *{
+        box-sizing: border-box;
+       }
+
+.dog{
+    background-color: rgba(220, 216, 216, 0.277);
+    padding: 20px;
+    border-radius: 20px;    
+    margin: 20px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ 
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,
+textarea
+{
+    width: 100%;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+fieldset{
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: white;
+    height: 110px;
+ }
+ textarea{
+     height: 80px;
+ }
+ .heading{
+     text-align: center;
+     background-color: rgba(56, 52, 52, 0.51);
+ }
+ input[type="submit"]{
+     background-color: black;
+     color: white;
+     padding:  20px;
+     cursor: zoom-out;
+ }
+ input[type="submit"]:hover{
+     color: blue;
+     background-color: chartreuse;
+
+ }
+input[type="submit"]{
+    border: 5px solid purple;
+    border-radius: 10px; 
+}
+input[type="submit"]:hover{
+    border-color: white;
+}
+.done{
+    color: blue;
+}
+
+   </style>
+    <title>Payment Form</title>
+</head>
+<body>
+    <div class="dog">
+    <form action="">
+        <h1 class="heading">PAYMENT FORM</h1>
+        <hr>
+        <p>NAME:<input type="text" name="name" required placeholder="vinay ks"</p>
+        <fieldset>
+            <legend>Gender</legend>
+        <p>Gender: male<input type="radio" name=   
+            "name" id="male" required>female<input type="radio" name="name" id="male"required</p>
+                
+        </fieldset> 
+        
+             
+        <p>Father Name:<input type="text" name="fname" placeholder="sathish ks"></p>
+        <p>Mother Name:<input type="text" name="mname" placeholder="sukitha md"></p>
+        <p>job:<input type="checkbox" name="cb">Business Man 
+               <br>
+               <input type="checkbox" name="cb">farmer
+               <br>
+               <input type="checkbox" name="cb">Cop</p>
+               <p>Address:<textarea name="address" id="address" cols="30" rows="5" placeholder="address"></textarea></p> 
+               <p>Email:<input type="email" name="email" id="email" placeholder="vinayksgowda1108@gmailcom"</p>             
+             <p>Pincode:<input type="number" name="pincode" id="pincode"</p>
+             <br>
+             <h2>Payment Details></h2>
+             <p>Card Type:
+                <select name="card_type" id="card_type">
+                    <option value="">--select the card type--</option>
+                    <option value="master card">master card</option>
+                    <option value="debit card">debit card</option>
+                </select>
+             <p>Card Number:<input type="number" name="card_number" id="card_number"></p>
+             <p>Expiry Date:<input type="date" name="exp_date" id="exp_date"      <p>CVV:<input type="password" name="cvv" id="cvv"</p>
+             <p><input type="submit" value="Pay Here"></p>
+             <p>PRESS HERE<input type="text" name="press" id="pr"></p>
+             <input type="reset" value="reset">
+        </form>
+        </div>
+</body>
+</html>
+
+
+
+<p>
+    <input
+    class="form-control"
+    type="text"
+    required
+    placeholder="Notice Ref"
+    id="notice-ref"
+     />
+   </p>
+

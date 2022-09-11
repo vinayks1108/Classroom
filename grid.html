@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-GRID</title>
+    <style>
+        .grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 5px;
+            grid-auto-rows: minmax(200px, auto);
+        }
+        .grid1{
+            background-color: rgba(128, 128, 128, 0.262);
+            border: 3px solid yellow;
+            padding: 10px;
+        }
+        #grid1{
+             grid-column-start: 1;
+             grid-column-end: 5;
+        } 
+        .grid11{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 10px;
+        }
+        .grid111{
+            background-color: blanchedalmond;
+            border: 5px solid rgba(0, 0, 0, 0.216);
+            border-radius: 6px;
+            width: 458px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+    <div class="grid1" id="grid1">
+        <div class="grid11">
+        <div class="grid111">NESTED DABBA</div>
+        <div class="grid111">NESTED DABBA</div>
+        <div class="grid111">NESTED DABBA</div>
+        </div>
+    </div>
+    
+    <div class="grid1">BOX-2</div>
+    <div class="grid1">BOX-3</div>
+    <div class="grid1">BOX-4</div>
+    <div class="grid1">BOX-5</div>
+    </div>
+    
+</body>
+</html>

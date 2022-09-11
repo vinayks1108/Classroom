@@ -1,0 +1,139 @@
+body{
+    margin: 0px;
+}
+nav a{
+    padding-left: 20px;
+}
+#one{
+    padding-top: 30px;
+}
+.sticky{
+    position: sticky;
+    top: 0px;
+    background-color: grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+#menu{
+    position: absolute;
+    right: 10px;
+}
+.menu{
+    padding-left: 10px;
+}
+.menu:hover{
+    background-color: white;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+section h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(101,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  margin-left: 650px; 
+  margin-right: 650px; 
+  padding: 20px;
+}
+.vid1,.vid2,.vid3{
+    margin: 20px;
+}
+.img{
+    margin: 15px;
+    border: 5px solid blue;
+    border-radius: 8px;
+}
+header h1{
+    text-align: center;
+    font-size: 150px;
+    color: white;
+    margin-top: 0px;
+    padding-top: 150px;
+    background-image: url(space.gif.crdownload);
+    height: 600px;
+    margin-bottom: auto;
+    background-attachment: fixed;
+}
+.vinaya{
+    text-align: center;
+    font-size: 50px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    clip-path: circle(50% at 50% 50%);
+    
+}
+
+.vin{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,17,121,1) 35%, rgba(0,212,255,1) 100%);
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
+.vinay{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    letter-spacing: 12px;
+    font-weight: 300;
+    text-shadow: 5px 0px 2px blue;
+}
+footer,footer a{
+    background-color: rgba(0, 0, 255, 0.982);
+    height: 300px;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+}
+footer{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+body{
+    background-color: white;
+}
+.link{
+    text-align: center;
+    color: blue;
+}
+.link1:hover{
+    color: black;
+}
+.link1{
+    padding: 15px;
+    font-size: 30px;
+    background-color: rgba(128, 128, 128, 0.501);
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 10px;
+    margin-left: 20px;
+}
+.link2{
+    padding-left: 20px;
+}
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+
+.carousel-cell {
+  width: 45%;
+  padding-left: 100px;
+  border-radius: 5px;
+}
+.carousel-cell video{
+    max-width: 100%;
+}
+.vid1,.vid2,.vid3{
+    padding: 20px;
+}
+.carousel-cell img{
+    max-width: 100%;
+}

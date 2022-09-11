@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS CLASS ROOM</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    body{
+    margin: 0px;
+}
+nav a{
+    padding-left: 20px;
+}
+#one{
+    padding-top: 30px;
+}
+.sticky{
+    position: sticky;
+    top: 0px;
+    background-color: grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    z-index: 2;
+}
+#menu{
+    position: absolute;
+    right: 10px;
+}
+.menu{
+    padding-left: 10px;
+}
+.menu:hover{
+    background-color: white;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+section h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(101,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  margin-left: 650px; 
+  margin-right: 650px; 
+  padding: 20px;
+}
+.vid1,.vid2,.vid3{
+    margin: 20px;
+}
+.img{
+    margin: 15px;
+    border: 5px solid blue;
+    border-radius: 8px;
+}
+header h1{
+    text-align: center;
+    font-size: 150px;
+    color: yellow;
+    margin-top: 0px;
+    padding-top: 150px;
+    background-image: url(space.gif.crdownload);
+    height: 600px;
+    margin-bottom: auto;
+    background-attachment: fixed;
+}
+.vinaya{
+    text-align: center;
+    font-size: 50px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    clip-path: circle(50% at 50% 50%);
+    
+    
+}
+
+.vin{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,17,121,1) 35%, rgba(0,212,255,1) 100%);
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
+.vinay{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    letter-spacing: 12px;
+    font-weight: 300;
+    text-shadow: 5px 0px 2px blue;
+}
+footer,footer a{
+    background-color: rgba(0, 0, 255, 0.982);
+    height: 300px;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+}
+footer{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+body{
+    background-color: white;
+}
+.link{
+    text-align: center;
+    color: blue;
+}
+.link1:hover{
+    color: black;
+}
+.link1{
+    padding: 15px;
+    font-size: 30px;
+    background-color: rgba(128, 128, 128, 0.501);
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 10px;
+    margin-left: 20px;
+}
+.link2{
+    padding-left: 20px;
+}
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+
+.carousel-cell {
+  width: 45%;
+  padding-left: 100px;
+  border-radius: 5px;
+}
+.carousel-cell video{
+    max-width: 100%;
+}
+.vid1,.vid2,.vid3{
+    padding: 20px;
+}
+.carousel-cell img{
+    max-width: 100%;
+}
+
+</style>
+<body>
+    <header>
+        <div class="container">
+        <h1>Vinay Class Room</h1>
+    </header>
+    <nav class="sticky">
+        <a href="home.html" class="menu" target="_blank">room</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        <a href="#" class="menu" >COURSES</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        <a href="#" class="menu" >Study Materials</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        <a href="#" class="menu" >About Me</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#" class="menu"  id="menu">Login/Sign-Up</a>
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    </nav>
+
+    <main>
+    <section>
+        <h2>COURSES</h2>
+        <div class="carousel"
+  data-flickity='{ "wrapAround": true }'>
+  <div class="carousel-cell"><video src="vinay.mp4" class="vid1"  height="350" controls autoplay poster ="java course.jpeg"></video></div>
+  <div class="carousel-cell"><video src="virat.mp4"  class="vid2"  height="350" controls poster="js course.jpeg"></video></div>
+  <div class="carousel-cell"><video src= "vinay.mp4" class="vid3"   height="350" controls poster="python course.jpeg"></video></div>
+  <div class="carousel-cell"><video src="vinay.mp4" class="vid1"  height="350" controls autoplay poster ="java course.jpeg"></video></div>
+  <div class="carousel-cell"><video src="vinay.mp4" class="vid1"  height="350" controls autoplay poster ="java course.jpeg"></video></div>
+</div>
+           <section>
+        <h2>Study Materials</h2>
+        <div class="carousel"
+  data-flickity='{ "wrapAround": true }'>
+  <div class="carousel-cell"><a href="vikas.pdf" ><img src="java notes thumb.jpeg"  height="300" width="480px" class="img"></a></div>
+  <div class="carousel-cell"><a href="vikas2.pdf" ><img src="python notes thumb.jpeg"  height="300" width="480px" class="img"></a></div>
+  <div class="carousel-cell"><a href="vikas2.pdf" ><img src="python notes thumb.jpeg"  height="300" width="480px" class="img"></a></div>
+
+</div>
+    </section>
+    <section>
+        
+        <p class="vin">The Founder</p>
+            
+            <img src="vinay.jpeg" alt="image" width="350px" height="350px" class="center">
+        
+        <p class="vinay">VINAY K S</p>
+        
+        
+        <div class="link">
+        <a href="mailto:vinayksgowda1108@gmail.com" class="link1"><i class="fa fa-envelope" style="font-size: 40px; padding-right: 10px;color: blue;" aria-hidden="true"></i>Gmail</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="geekyshows" class="link1" target="_blank"><i class="fa fa-youtube-play" style="font-size: 40px; padding-right: 10px; color: red;" aria-hidden="true"></i>You Tube</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.instagram.com/vinayks_gowda/?igshid=YmMyMTA2M2Y%3D " target="_blank" class="link1">
+         <i class="fa fa-instagram" aria-hidden="true" style="font-size: 40px; padding-right: 10px; color: red;"></i>Instagram</a>
+         <a href="https://www.facebook.com" class="link1" class="link2"><i class="fa fa-facebook" style="font-size: 40px; padding-right: 10px;" aria-hidden="true"></i>Face Book</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+        <h1 id="one">Mr Vinay KS graduated from MVJ college of engineering and currently persuing his masters from kishore collegecollege of engineering.
+        this website provides complete notes for the students to improve their hidden and groom up for their better future. 
+        </h1>  
+    </section>
+   </main>
+   <footer>
+       <a href="#">policy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+       <a href="#">refund policy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+       <a href="#">Privacy Policy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+       <a href="#">Return Policy</a>
+       <ul>
+        <li>Events</li>
+        <li>Contacts</li>
+        <li>Mentors</li>
+        <li>Notes/Study Materials</li>
+        <li>Terms and Conditions</li>
+       </ul>
+    </footer>
+
+    <!-- JavaScript -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</div>
+</body>
+
